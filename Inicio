@@ -1,0 +1,26 @@
+<html>
+    <meta charset="UTF-8">
+    <meta name="index" content="width=device-width">
+    <head><link href="./Pagina Web P13_IvanPardo_NereaGarcia.css" rel="styleshe$
+    <head>
+        <title>Mobil Mania</title>
+    </head>
+    <body id="portada">
+        <div id="header">
+            <ul class="nav">
+                <li><a href="./Pagina Web P13_IvanPardo_NereaGarcia.html">Inici$
+                <li><a href="./Productos2.html">Productos</a></li>
+                <li><a href="./Servicios.html">Servicios</a></li>
+                <li><a href="./contactaconnosotros.html">Contacto</a></li>
+                <li><a href="./AboutUs.html">About Us</a></li>
+                <li><a href="./News.html">Noticias</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <p><a href="">
+                MobilMania
+            </a></p>
+        </div>
+        <footer><a href="./Terminos_y_Condiciones.html">Términos y Condiciones<$
+    </body>
+</html>
