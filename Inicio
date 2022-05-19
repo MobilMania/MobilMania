@@ -24,3 +24,134 @@
         <footer><a href="./Terminos_y_Condiciones.html">Términos y Condiciones</a>&nbsp<a>|</a>&nbsp<a href="./AvisoLegal.html">Aviso Legal</a></footer>
     </body>
 </html>
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#portada {
+    background-image: url("./fotofondo.JPG");
+    background-repeat: no-repeat;
+  }
+
+#header {
+    margin:auto;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.9);  
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+ 
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 9.8px;
+    margin-top: 0;
+    display:block;
+    min-width:13em;
+
+}
+
+.nav li a:hover {
+    background-color:#2c2c2c;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+img{
+    background-color: transparent;
+    float:left
+}
+
+  /*neon effect*/
+  p{
+    text-align:center;
+    font-size:7em;
+    margin:20px 0 20px 0;
+  }
+  
+  a{
+    text-decoration:none;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  p:nth-child(1) a{
+    color:#2dc5ff;
+    font-family:Monoton;
+  }
+  p:nth-child(1) a:hover{
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+
+  p a:hover{
+  color:#ffffff;
+  }
+  
+  @font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Monoton'), local('Monoton-Regular'), url(http://themes.googleusercontent.com/static/fonts/monoton/v4/AKI-lyzyNHXByGHeOcds_w.woff) forma$
+}
+  
+
+ @-webkit-keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff,
+                 0 0 20px  #fff,
+                 0 0 30px  #fff,
+                 0 0 40px  #2dc5ff,
+                 0 0 70px  #2dc5ff,
+                 0 0 80px  #2dc5ff,
+                 0 0 100px #2dc5ff,
+                 0 0 150px #2dc5ff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #fff,
+                 0 0 20px #2dc5ff,
+                 0 0 35px #2dc5ff,
+                 0 0 40px #2dc5ff,
+                 0 0 50px #2dc5ff,
+                 0 0 75px #2dc5ff;
+    }
+  }
+footer{
+  text-align: center;
+  margin-top: 22em;
+  font-family: Arial;
+  color:white;
+}
+
+a{
+  color: white;
+}
