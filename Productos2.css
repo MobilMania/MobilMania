@@ -1,0 +1,179 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+  
+#header {
+    margin:auto;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.9);  
+}
+  
+ul, ol {
+    list-style:none;
+}
+  
+.nav > li {
+    float:left;
+}
+  
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20.3px;
+    display:block;
+    min-width:11.5em;
+}
+  
+.nav li a:hover {
+    background-color:#272727;
+}
+  
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+  
+.nav li:hover > ul {
+    display:block;
+}
+  
+.nav li ul li {
+    position:relative;
+}
+  
+.nav li ul li ul {
+    right:140px;
+    top:0px;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+  
+.flex-container > div {
+    background-color: transparent;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    align-content: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+h1{
+    font-family:"arial";
+    text-align: center;
+    align-content: center;
+}
+
+#s10 {
+    width:12em;
+}
+#s10:hover{
+    width:18em;
+    font-size:1em
+}
+
+#s20 {
+    margin-top: 19px;
+    width:9.2em;
+}
+#s20:hover{
+    width:12.3em;
+    font-size:1em
+}
+
+#s30 {
+    width:10em;
+}
+#s30:hover{
+    width:13em;
+    font-size:1em
+}
+
+#s40 {
+    width:10em;
+}
+#s40:hover{
+    width:15em;
+    font-size:1em
+}
+
+#s50 {
+    width:6.8em;
+}
+#s50:hover{
+    width:10em;
+    font-size:1em;
+}
+
+#s60 {
+    width:7.3em;
+    margin-top: 8px;
+}
+#s60:hover{
+    width:10em;
+    font-size:1em
+}
+
+#s70 {
+    width:6.8em;
+    margin-top: 10px;
+}
+#s70:hover{
+    width:10em;
+    font-size:1em
+}
+
+#patata {
+    width:6.8em;
+}
+#patata:hover{
+    width:10em;
+    font-size:1em
+}
+
+#moto {
+    width:8.7em;
+    margin-top: 36px;
+}
+#moto:hover{
+    width:11.7em;
+
+}
+img:hover{
+    width:13em;
+    font-size:1em
+}
+html{
+    background-color: black;
+    color:white
+}
+#preu{
+    font-size:0.7em;
+}
+#relo{
+    width: 32px
+}
+
+.foto{
+    margin-right: 150px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: Arial;
+}
+  
+a{
+    color: white;
+    text-decoration: none;
+}
