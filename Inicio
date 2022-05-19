@@ -1,14 +1,14 @@
 <html>
     <meta charset="UTF-8">
     <meta name="index" content="width=device-width">
-    <head><link href="./Pagina Web P13_IvanPardo_NereaGarcia.css" rel="styleshe$
+    <head><link href="./Pagina Web P13_IvanPardo_NereaGarcia.css" rel="stylesheet" type="text/css"></head>
     <head>
         <title>Mobil Mania</title>
     </head>
     <body id="portada">
         <div id="header">
             <ul class="nav">
-                <li><a href="./Pagina Web P13_IvanPardo_NereaGarcia.html">Inici$
+                <li><a href="./Pagina Web P13_IvanPardo_NereaGarcia.html">Inicio</a></li>
                 <li><a href="./Productos2.html">Productos</a></li>
                 <li><a href="./Servicios.html">Servicios</a></li>
                 <li><a href="./contactaconnosotros.html">Contacto</a></li>
@@ -21,6 +21,6 @@
                 MobilMania
             </a></p>
         </div>
-        <footer><a href="./Terminos_y_Condiciones.html">Términos y Condiciones<$
+        <footer><a href="./Terminos_y_Condiciones.html">Términos y Condiciones</a>&nbsp<a>|</a>&nbsp<a href="./AvisoLegal.html">Aviso Legal</a></footer>
     </body>
 </html>
